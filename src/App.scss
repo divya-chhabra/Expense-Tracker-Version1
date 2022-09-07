@@ -1,0 +1,73 @@
+*{
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.space{
+    padding: 15px 0px;
+}
+
+.App {
+  width:400px;
+  margin:0 auto;
+}
+
+h2{
+  text-align: center;
+}
+
+.balance-add-row{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.income-expense-row{
+  display:flex;
+  justify-content: space-between;
+
+  .inner{
+    border:1px solid rgb(179, 176, 176);
+    padding: 10px 60px;
+  }
+
+  .green{
+    color:green;
+  }
+
+  .red{
+    color:red;
+  }
+}
+
+.addBtn{
+  button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+  }
+}
+
+.form-group{
+  margin: 15px 0px;
+}
+
+.transactionDetails{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0px;
+  border-right-width: 2px;
+}
+
+.searchBar{
+  padding: 5px 10px;
+  width:70%;
+  font-size:16px;
+  margin: 10px 0px;
+}
+
